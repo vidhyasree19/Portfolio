@@ -1,0 +1,34 @@
+/* Skills.css */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .skills-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .skills-section:last-child {
+    margin-right: 0;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #007bff; /* Progress bar color */
+    width: 0; /* Width will be dynamically set based on progress */
+  }
+  
